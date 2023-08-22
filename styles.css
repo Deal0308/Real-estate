@@ -31,6 +31,16 @@ img{
     justify-content: space-between;
     padding:2rem;
 }
+.btn-details{
+    display: block;
+    background-color: orange;
+    color:white;
+    width: 80%;
+    padding:1rem;
+    border-radius: .5rem;
+    text-align: center;
+   
+}
 /*header*/
 header.site-header{
     display: flex;
@@ -98,4 +108,40 @@ nav.menu a{
 .text-price{
     color:rgb(4, 120, 4);
     font-size: 1.6rem;
+}
+/* contact */
+.site-header{
+    background-color: black;
+    height: 10vh;
+
+}
+fieldset{
+font-size: 1.6rem;
+margin-top: 2rem;
+}
+legend{
+display: block;
+font-size: 1.6rem;
+text-transform: uppercase;
+letter-spacing: .3rem;
+font-weight: 700;
+}
+.form-container{
+    margin:1rem
+}
+.form-label{
+    display: block;
+    font-size: 1.6rem;
+    text-transform: uppercase;
+    letter-spacing: .3rem;
+    font-weight: 700;
+
+}
+.form-control{
+    min-width: 95%;
+    background-color: rgb(241, 245, 245);
+    border: none;
+    font-size: 1.6rem;
+    padding: 0.4rem;
+    border-radius: 0.5rem;
 }

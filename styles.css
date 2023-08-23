@@ -110,10 +110,14 @@ nav.menu a{
     font-size: 1.6rem;
 }
 /* contact */
-.site-header{
+.site-contact{
     background-color: black;
     height: 10vh;
+    color: #dedede;
 
+}
+.container-flex-vertical{
+    color: #dedede;
 }
 fieldset{
 font-size: 1.6rem;
@@ -144,4 +148,11 @@ font-weight: 700;
     font-size: 1.6rem;
     padding: 0.4rem;
     border-radius: 0.5rem;
+}
+.btn-send{
+    padding: auto;
+    margin-top: auto;
+    display: block;
+    background-color: green;
+    font-size: 2rem;
 }

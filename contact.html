@@ -7,13 +7,13 @@
 </head>
 <body>
     <header class="site-contact">
-        <div class="container flex-vertical">
+        <div class="container-flex-vertical">
             <div class="bar">
                 <h1>Real Estate</h1>
                 <nav>
-                    <a href="about.html"></a>
-                    <a href="blog.html"></a>
-                    <a href="contact.html"></a>
+                    <a href="about.html">About us</a>
+                    <a href="blog.html">Our Blog</a>
+                    <a href="contact.html">Contact Us</a>
                 </nav>
             </div>
 
@@ -62,10 +62,29 @@
             </div>
             <div>
                 <label class="form-label">NUMBER:</label>
-                <input class="form-control" type="text" placeholder="Type your number">
+                <input class="form-control" type="text" placeholder="Type your product number">
 
             </div>
         </fieldset>
+        <fieldset>
+            <legend>Contact information</legend>
+            <div class="form-container">
+                <label for="form-label">Phone:</label>
+                <label for="form-label">Email:</label>
+            </div>
+            <div>
+                <p>If you want to be contacted by phone, please select a day and hour:</p>
+            </div>
+            <div>
+                <label for="form-label">Date:</label>
+                <input class="form-control" type="date" placeholder="dd/mm/yyyy">
+            </div>
+            <div>
+                <label for="form-label">Hour</label>
+                <input class="form-control" type="hour" placeholder="--:--">
+            </div>
+        </fieldset>
+        <button class="btn-send">Send</button>
 
     </main>
     
